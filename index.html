@@ -7,14 +7,14 @@
   <title>Login</title>
 </head>
 <body>
-  <header>
+  <header class="header-login">
     <p>Aqui é onde você coleciona as melhores cartas</p>
-    <img src="image/cardking.png" alt="Logotipo Cardking">
+    <img src="image/cardking.png" class="logo" alt="Logotipo Cardking">
   </header>
-  <h1>Bem vindo ao melhor site de colecionador de cartas</h1>
+  <h1 class="titulo-login">Bem vindo ao melhor site de colecionador de cartas</h1>
   <main>
-    <section>
-      <div>
+    <section class="container">
+      <div class="cadastro-login">
         <form action="views/home.html" method="get">
           <h2>Login</h2>
           <label for="email">Email:</label>
@@ -24,7 +24,7 @@
           <input type="submit" value="Enviar">
         </form>
       </div>
-      <div>
+      <div class="cadastro-login">
         <form action="/views/home.html" method="get">
           <h2>Cadastro</h2>
           <label for="nomeCadastro">Nome:</label>
@@ -39,8 +39,10 @@
     </section>
   </main>
   <section>
-    <img src="/image/banner.png" alt="Banner de desconto">
+    <img src="/image/banner.png" class="banner" alt="Banner de desconto">
   </section>
-  <footer>Todos os direitos reservados @cardking</footer>
+  <footer>
+    <p class="footer-login">Todos os direitos reservados @cardking</p>
+  </footer>
 </body>
 </html>
